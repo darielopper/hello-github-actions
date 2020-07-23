@@ -1,0 +1,9 @@
+name: A workflow of test
+on: push
+
+jobs:
+    build:
+    name: Hello World Action
+    runs-on: ubunto-latest
+    steps:
+        - uses: actions/checkout@v1
